@@ -149,7 +149,9 @@ We will create a PostgreSQL database using AWS RDS. This is used by the project 
 
 ### Instructions
 1. Navigate to RDS from the AWS console.
-2. Create a PostgreSQL database with the following configurations:
+2. ![image](https://user-images.githubusercontent.com/68260816/175786171-4ec16a80-92d3-4b03-b89e-f2a762c27a1b.png)
+
+3. Create a PostgreSQL database with the following configurations:
 
    <center>
 
@@ -169,10 +171,13 @@ We will create a PostgreSQL database using AWS RDS. This is used by the project 
    |Availability Zone|No preferencce|
    |Database port|`5432` (default)|
    </center>
+![image](https://user-images.githubusercontent.com/68260816/175786314-e2cc6668-8962-4001-872f-89ce327b6fc3.png)
 
 2. Once the database is created successfully (this will take a few minutes), copy and save the database endpoint, master username, and password to your local machine. These values are required for the application to connect to the database.
 
 3. Edit the security group's inbound rule to allow incoming connections from anywhere (`0.0.0.0/0`). This will allow an application that is running locally to connect to the database. 
+4. ![image](https://user-images.githubusercontent.com/68260816/175786471-857496cc-21a0-4417-8acf-1bea8fbc86e0.png)
+
 
 > Note: AWS RDS will automatically create a database with the name `postgres` if none is configured during the creation step. By following the setup instructions provided here, we will be using the default database name.
 
@@ -184,6 +189,8 @@ psql -h mypostgres-database-1.c5szli4s4qq9.us-east-1.rds.amazonaws.com -U [your-
 # Provide the database password when prompted
 ```
 If your connection is succesful, your terminal should print ` "postgres=>"`.
+![image](https://user-images.githubusercontent.com/68260816/175787671-fcbd8188-d2f3-4f30-8d4c-55fa6d610889.png)
+
 
 You can play around with some `psql` commands found [here](https://www.postgresql.org/docs/13/app-psql.html).
 
