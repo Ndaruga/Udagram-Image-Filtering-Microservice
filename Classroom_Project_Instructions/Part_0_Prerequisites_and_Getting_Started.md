@@ -109,10 +109,15 @@ To run this project, you are expected to have:
 ## S3 Bucket
 The project uses an AWS S3 bucket to store image files.
 
+
 ### Instructions
 1. Navigate to S3 from the AWS console.
 2. Create a public S3 bucket with default configurations (eg. no versioning, disable encryption).
-3. In your newly-created S3 bucket, go to the **Permissions** tab and add an additional bucket policy to enable access for other AWS services (ie. Kubernetes).
+3. ![image](https://user-images.githubusercontent.com/68260816/175785733-23f7fdc9-87b6-487d-a775-5eb6842bfad9.png)
+
+4. ![image](https://user-images.githubusercontent.com/68260816/175784943-55e09d35-1806-4f1a-a0ee-1eb8866c3936.png)
+
+4. In your newly-created S3 bucket, go to the **Permissions** tab and add an additional bucket policy to enable access for other AWS services (ie. Kubernetes).
 
    You can use the <a href="https://awspolicygen.s3.amazonaws.com/policygen.html" target="_blank">policy generator</a> tool to generate such an IAM policy. See an example below (change the bucket name in your case).
    ```json
@@ -128,9 +133,14 @@ The project uses an AWS S3 bucket to store image files.
          }
       ]
    }
+   
    ```
+   ![image](https://user-images.githubusercontent.com/68260816/175785671-f1a90a61-bbdc-4f12-889c-35a7f871e0d8.png)
+
 
    > In the AWS S3 console, the CORS configuration must be JSON format. Whereas, the AWS CLI can use either JSON or XML format.
+   > ![image](https://user-images.githubusercontent.com/68260816/175785615-332def82-0d67-4433-b5bb-368f419649e0.png)
+
 
    > Once the policies above are set and you are no longer testing locally, you can disable public access to your bucket.
 
