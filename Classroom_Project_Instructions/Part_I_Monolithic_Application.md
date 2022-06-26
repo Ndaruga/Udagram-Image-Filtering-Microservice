@@ -30,6 +30,10 @@ npm install .
 ionic build
 ionic serve
 ```
+#### This project requires the following node versions
+![image](https://user-images.githubusercontent.com/68260816/175830243-11bdd564-c2d1-4329-8b28-65c3f2e59900.png)
+
+
 > Note: If you don't have Ionic CLI installed already, revisit the prerequisites in the previous section for setup instructions.
 
 ### Verification
