@@ -17,6 +17,8 @@ npm run dev
 
 ### Verification
 Once this command is run successfully, visit the `http://localhost:8080/api/v0/feed` in your web browser to verify that the application is running. You should see a JSON payload.
+![image](https://user-images.githubusercontent.com/68260816/176383818-16569c5a-d814-4cfd-81bc-aba3074b1a1b.png)
+
 
 ## Frontend App
 ### Download Dependencies
