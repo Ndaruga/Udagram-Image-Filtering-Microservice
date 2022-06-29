@@ -74,6 +74,9 @@ nvm --version
 # for this project i used 14.15.0
 nvm install <SPECIFIC_NODE_VERSION>
 ```
+![image](https://user-images.githubusercontent.com/68260816/176372192-24653810-3b0a-4090-8a48-753cc1da844d.png)
+
+
 2.Install Node.js latest version
 
 ```
