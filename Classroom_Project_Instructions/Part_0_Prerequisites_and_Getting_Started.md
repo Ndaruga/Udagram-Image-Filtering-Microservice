@@ -51,6 +51,13 @@ node -v
 # v7.19 or greater
 npm -v
 ```
+### how i installed node
+#### Using NVM (Node version manager)
+here is the code 
+```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+![image](https://user-images.githubusercontent.com/68260816/176370135-110abf28-3d1f-4ad4-b251-293261db8c95.png)
+
 
 ## PostgreSQL client
 Using PostgreSQL involves a server and a client. The server hosts the database while the client interfaces with it to execute queries. Because we will be creating our server on AWS, we will only need to install a client for our local setup.
