@@ -54,9 +54,21 @@ npm -v
 ### how i installed node
 #### Using NVM (Node version manager)
 here is the code 
-```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+# install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
 ![image](https://user-images.githubusercontent.com/68260816/176370135-110abf28-3d1f-4ad4-b251-293261db8c95.png)
+
+#### getting into the .bashrc
+```
+source ~/.bashrc
+```
+We can quickly verify that NVM is now installed and working properly with the following command:
+```
+nvm --version
+```
+#### using nvm
 
 
 ## PostgreSQL client
