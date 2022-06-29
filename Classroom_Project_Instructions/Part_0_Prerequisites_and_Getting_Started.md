@@ -69,7 +69,34 @@ We can quickly verify that NVM is now installed and working properly with the fo
 nvm --version
 ```
 #### using nvm
+1.Install Node.js
+```
+# for this project i used 14.15.0
+nvm install <SPECIFIC_NODE_VERSION>
+```
+2.Install Node.js latest version
 
+```
+nvm install node
+```
+
+3. To use any specific version of Node.js for your code
+
+```
+nvm use <SPECIFIC_NODE_VERSION>
+```
+
+4. To list installed Node.js versions locally on your machine, use
+
+```
+nvm ls
+```
+
+5. List all available LTS versions of Node.js.
+
+```
+nvm ls-remote
+```
 
 ## PostgreSQL client
 Using PostgreSQL involves a server and a client. The server hosts the database while the client interfaces with it to execute queries. Because we will be creating our server on AWS, we will only need to install a client for our local setup.
