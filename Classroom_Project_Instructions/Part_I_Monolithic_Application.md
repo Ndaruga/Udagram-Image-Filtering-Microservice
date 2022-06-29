@@ -40,6 +40,7 @@ ionic serve
 
 ### Verification
 Visit `http://localhost:8100` in your web browser to verify that the application is running. You should see a web interface.
+![image](https://user-images.githubusercontent.com/68260816/176398913-19245e47-6bb4-480d-8c2f-379dddb849a8.png)
 
 ___
 
