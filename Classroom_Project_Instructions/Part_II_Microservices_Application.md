@@ -148,6 +148,8 @@ At this moment, your project directory would have the following structure:
 │   └── src
 └── udagram-reverseproxy
 ```
+#### Level 1 folder structure
+![image](https://user-images.githubusercontent.com/68260816/181980812-85012796-c339-46ab-9304-1f5866e38a8e.png)
 
 
 
