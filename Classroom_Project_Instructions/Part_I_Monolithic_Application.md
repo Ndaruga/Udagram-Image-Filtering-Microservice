@@ -42,6 +42,12 @@ ionic serve
 Visit `http://localhost:8100` in your web browser to verify that the application is running. You should see a web interface.
 ![image](https://user-images.githubusercontent.com/68260816/176398913-19245e47-6bb4-480d-8c2f-379dddb849a8.png)
 
+Next, register and create a new post
+![image](https://user-images.githubusercontent.com/68260816/181939212-b7cbb2e8-24a4-4d00-8938-cd2bed0a7db9.png)
+
+your final snapshort should contain the uploaded image
+![image](https://user-images.githubusercontent.com/68260816/181939935-46ad6db8-38f9-4afa-9b6e-a662c608a30b.png)
+
 ___
 
 ## Next Steps
