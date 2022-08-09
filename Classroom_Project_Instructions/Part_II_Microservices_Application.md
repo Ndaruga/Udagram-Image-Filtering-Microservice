@@ -148,6 +148,8 @@ At this moment, your project directory would have the following structure:
 │   └── src
 └── udagram-reverseproxy
 ```
+#### Level 1 folder structure
+![image](https://user-images.githubusercontent.com/68260816/181980812-85012796-c339-46ab-9304-1f5866e38a8e.png)
 
 
 
@@ -172,6 +174,8 @@ At this moment, your project directory would have the following structure:
 # Make sure the Docker services are running in your local machine
 # Remove unused and dangling images
 docker image prune --all
+#To remove all docker containers
+docker container prune --force
 # Run this command from the directory where you have the "docker-compose-build.yaml" file present
 docker-compose -f docker-compose-build.yaml build --parallel
 ```
