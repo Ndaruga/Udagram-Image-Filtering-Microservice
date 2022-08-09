@@ -22,7 +22,7 @@ script:
   - docker tag udagram-frontend  Ndaruga/udagram-frontend:v1
 ​
 after_success:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "Docker978~" | docker login -u "Ndaruga" --password-stdin
   - docker push  Ndaruga/reverseproxy:v1
   - docker push  Ndaruga/udagram-api-feed:v1
   - docker push  Ndaruga/udagram-api-user:v1
