@@ -17,13 +17,13 @@ script:
   
   # Tag images
   - docker tag reverseproxy  ndaruga/reverseproxy:v1
-  - docker tag udagram-api-feed  ndaruga/udagram-api-feed:v1
-  - docker tag udagram-api-user  ndaruga/udagram-api-user:v1
-  - docker tag udagram-frontend  ndaruga/udagram-frontend:v1
+  - docker tag udagram-api-feed  ndaruga/udagram-api-feed:v2
+  - docker tag udagram-api-user  ndaruga/udagram-api-user:v2
+  - docker tag udagram-frontend  ndaruga/udagram-frontend:v2
 ​
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push  ndaruga/reverseproxy:v1
-  - docker push  ndaruga/udagram-api-feed:v1
-  - docker push  ndaruga/udagram-api-user:v1
-  - docker push  ndaruga/udagram-frontend:v1
+  - docker push  ndaruga/reverseproxy:v2
+  - docker push  ndaruga/udagram-api-feed:v2
+  - docker push  ndaruga/udagram-api-user:v2
+  - docker push  ndaruga/udagram-frontend:v2
