@@ -3,3 +3,7 @@ set_env.sh
 udagram-api-feed/node_modules/
 udagram-api-user/node_modules/
 set_env.sh
+
+aws-secret.yaml
+env-secret.yaml
+env-configmap.yaml
