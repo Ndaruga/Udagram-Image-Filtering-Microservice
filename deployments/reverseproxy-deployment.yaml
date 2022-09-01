@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: docker.io/ndaruga/reverseproxy
+        image: docker.io/ndaruga/reverseproxy:v4
         ports:
         - containerPort: 80
         resources:
